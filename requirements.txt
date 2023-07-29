@@ -14,3 +14,7 @@ scipy
 Flask
 Flask-Cors
 -e .
+ 
+# create env't and install these req'ts to it
+  # conda creaye -n cnncls python 3.9 -y
+  # conda activate cnncls
