@@ -1,0 +1,1 @@
+from coffee_cnn_Classifier.components.data_ingestion import DataIngestion
