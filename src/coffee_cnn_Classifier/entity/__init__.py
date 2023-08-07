@@ -1,1 +1,1 @@
-from coffee_cnn_Classifier.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig)
+from coffee_cnn_Classifier.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig, PrepareCallbacksConfig)
