@@ -2,7 +2,7 @@ from coffee_cnn_Classifier.constants import *
 from coffee_cnn_Classifier.utils import read_yaml, create_directories
 from pathlib import Path
 import os
-from coffee_cnn_Classifier.entity import (DataIngestionConfig, PrepareBaseModelConfig,PrepareCallbacksConfig,TrainingConfig)
+from coffee_cnn_Classifier.entity import (DataIngestionConfig, PrepareBaseModelConfig,PrepareCallbacksConfig,TrainingConfig, EvaluationConfig)
 
 
 class ConfigurationManager:
@@ -87,3 +87,12 @@ class ConfigurationManager:
             )
 
             return training_config
+        
+    def get_validation_config(self) -> EvaluationConfig:
+        eval_config = EvaluationConfig(
+            path_of_model=self.config.training.trained_model_path,
+            training_data=self.config.data_ingestion.unzip_dir,
+            params_image_size=self.params.IMAGE_SIZE,
+            params_batch_size=self.params.BATCH_SIZE
+        )
+        return eval_config
