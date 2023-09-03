@@ -96,7 +96,7 @@ Email: entbappy73@gmail.com
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 493556374360.dkr.ecr.us-east-1.amazonaws.com/coffeerust
+    - Save the URI: 493556374360.dkr.ecr.us-east-1.amazonaws.com/coffeeleafrust
 	
                     
 	
