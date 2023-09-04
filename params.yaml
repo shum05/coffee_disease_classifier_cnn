@@ -1,8 +1,16 @@
+# Data augmentation involves applying random transformations to input data (e.g., images) to increase the diversity of the training dataset
 AUGMENTATION: True
+
+# input image size of 224x224-pixel image with three color channels (RGB)
 IMAGE_SIZE: [224, 224, 3] # as per keras recomfor VGG 16 model
+# number of samples that will be processed in each forward and backward pass through the neural network before updating the model's weights.
 BATCH_SIZE: 16
+# fine-tune a pre-trained model for a specific task and replace the top layers with custom layers
 INCLUDE_TOP: False
-EPOCHS: 1
+
+EPOCHS: 2
 CLASSES: 2  # healthy & unhealthy
+#  initialize the model with pre-trained weights from the ImageNet dataset
 WEIGHTS: imagenet
+#  how quickly the model's weights are updated during training.
 LEARNING_RATE: 0.01
