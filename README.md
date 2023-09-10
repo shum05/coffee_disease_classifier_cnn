@@ -1,20 +1,25 @@
 # coffee_disease_classifier_cnn
 
-## Workflows
+## Development and Implementation Procedures
 
-Update config.yaml--> Update secrets.yaml [Optional]--> Update params.yaml--> Update the entity--> Update the configuration manager in src config--> Update the components--> Update the pipeline--> Update the main.py
+Update config.yaml
+	--> Update secrets.yaml
+ 		--> Update params.yaml
+   			--> Update the entity
+      				--> Update the configuration manager in src config
+	  				--> Update the components
+       						--> Update the pipeline
+	     						--> Update the main.py
 
 
-### Dataset URL:
+### Dataset URL (for images):
 [Click here to download data](https://github.com/shum05/Imgs_coffee_disease_DL/raw/main/imgs_coffee.zip)
 
 ## Youtube Playlist of this project implementation:
 [Click here](https://www.youtube.com/playlist?list=PLs_a5ZoT8LiSNMbw0iZoaJk8kh-MV37Vx_)
 
-# How to run?
-### STEPS:
-
-Clone the repository
+# How to run this project on your machine
+	Clone the ff repository
 
 ```bash
 https://github.com/shum05/coffee_disease_classifier_cnn
@@ -24,7 +29,7 @@ https://github.com/shum05/coffee_disease_classifier_cnn
 ```bash
 conda create -n cnncls python=3.7 -y
 ```
-
+ ### -And  activate it
 ```bash
 conda activate cnncls
 ```
@@ -35,13 +40,11 @@ conda activate cnncls
 pip install -r requirements.txt
 ```
 
-
 ```bash
 # Finally run the following command
 python app.py
 ```
 
-Now,
 ```bash
 open up you local host and port
 ```
