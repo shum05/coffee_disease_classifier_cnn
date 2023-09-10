@@ -1,4 +1,4 @@
-# coffee_disease_classifier_cnn
+# coffee_disease_classifier_cnn (Hemileia vastatrix)
 
 ## Development and Implementation Procedures
 
