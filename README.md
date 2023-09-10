@@ -1,22 +1,15 @@
 # coffee_disease_classifier_cnn
+
 ## Workflows
 
-1. Update config.yaml
-2. Update secrets.yaml [Optional]
-3. Update params.yaml
-4. Update the entity
-5. Update the configuration manager in src config
-6. Update the components
-7. Update the pipeline 
-8. Update the main.py
+Update config.yaml--> Update secrets.yaml [Optional]--> Update params.yaml--> Update the entity--> Update the configuration manager in src config--> Update the components--> Update the pipeline--> Update the main.py
 
 
 ### Dataset URL:
-[Click here to download data](https://github.com/entbappy/Branching-tutorial/raw/master/cat-dog-data.zip)
-
+[Click here to download data](https://github.com/shum05/Imgs_coffee_disease_DL/raw/main/imgs_coffee.zip)
 
 ## Youtube Playlist of this project implementation:
-[Click here](https://youtube.com/playlist?list=PLkz_y24mlSJZtxpM7dkfiOYxs6PZXHt0_)
+[Click here](https://www.youtube.com/playlist?list=PLs_a5ZoT8LiSNMbw0iZoaJk8kh-MV37Vx_)
 
 # How to run?
 ### STEPS:
@@ -24,7 +17,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/cnnClassifier
+https://github.com/shum05/coffee_disease_classifier_cnn
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -53,16 +46,13 @@ Now,
 open up you local host and port
 ```
 
-
 ```bash
-Author: Bappy Ahmed
-Data Scientist
-Email: entbappy73@gmail.com
-
+Author: Shu Tef
+	Data/Analyst/Data Scientist/Data Eng'r
+Email: tshumetie5@gmail.com
+Linkedln: www.linkedin.com/in/shumetie-a-tefera527
+website: https://s3shumetie23.com/
 ```
-
-
-
 # AWS-CICD-Deployment-with-Github-Actions
 
 ## 1. Login to AWS console.
@@ -129,9 +119,9 @@ Email: entbappy73@gmail.com
 
 # 7. Setup github secrets:
 
-    AWS_ACCESS_KEY_ID= 
+    AWS_ACCESS_KEY_ID= ??????xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx???????
 
-    AWS_SECRET_ACCESS_KEY=
+    AWS_SECRET_ACCESS_KEY= ??????????xxxxxxxxxxxxxxxxxxxxxx?????
 
     AWS_REGION = us-east-1
 
