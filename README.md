@@ -19,7 +19,7 @@ Update config.yaml
 [Click here](https://www.youtube.com/playlist?list=PLs_a5ZoT8LiSNMbw0iZoaJk8kh-MV37Vx_)
 
 # How to run this project on your machine
-	Clone the ff repository
+	# Clone the ff repository
 
 ```bash
 https://github.com/shum05/coffee_disease_classifier_cnn
