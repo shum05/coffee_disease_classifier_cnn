@@ -27,7 +27,7 @@ https://github.com/shum05/coffee_disease_classifier_cnn
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.7 -y
+conda create -n cnncls python=3.9 -y
 ```
  ### -And  activate it
 ```bash
@@ -53,7 +53,7 @@ open up you local host and port
 Author: Shu Tef
 	Data/Analyst/Data Scientist/Data Eng'r
 Email: tshumetie5@gmail.com
-Linkedln: www.linkedin.com/in/shumetie-a-tefera527
+Linkedln: www.linkedin.com/in/tshumetie5/
 website: https://s3shumetie23.com/
 ```
 # AWS-CICD-Deployment-with-Github-Actions
